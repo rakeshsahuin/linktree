@@ -45,6 +45,17 @@ body {
     text-decoration: none;
 }
 
+.userdes {
+    color: var(--accentColor);
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
 #links {
     max-width: 675px;
     width: auto;
