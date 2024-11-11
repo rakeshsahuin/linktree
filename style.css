@@ -811,3 +811,21 @@ body {
     494px 1957px #fff, 1296px 431px #fff, 175px 1507px #fff, 831px 121px #fff,
     498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
 }
+
+@media (min-width: 768px) { 
+    .audiable-pc {
+      display: none;
+    }
+    .audiable-pc {
+      display: block; /* or inline, inline-block, etc. depending on your layout */
+    }
+}
+
+@media (max-width: 767px) { /* Adjust 767px as needed */
+    .audiable-pc {
+        display: block;
+      }
+      .audiable-pc {
+        display: none; /* or inline, inline-block, etc. depending on your layout */
+      }
+}
